@@ -18,6 +18,8 @@
     <!-- Custom styles for this template -->
     <link href="<?php echo get_bloginfo('template_directory'); ?>/css/blog.css" rel="stylesheet">
 
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -54,6 +56,50 @@
         </div><!-- /.row -->
 
     </div><!-- /.container -->
+
+    <div class="container-fluid con-fld">
+      <div class="row content-area">
+        <div class="col-xs-12 col-sm-6 col-md-4 content">
+          <div class="test" id="council">
+            <a href=# class="ref">
+              <div class="panel-image">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/asset/officecommissionphoto2014.jpg" alt="Office Commission">
+              </div>
+              <div class="panel-text">
+                <h2 class="header2">City Council</h2>
+                <p class="overview">Find information about City Council meetings and learn about your elected officials.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 content">
+          <div class="test" id="neighborhood">
+            <a href=# class="ref">
+              <div class="panel-image">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/asset/myneighborhood.jpg" alt="My Neighborhood">
+              </div>
+              <div class="panel-text">
+                <h2 class="header2">My Neighborhood</h2>
+                <p class="overview">What's happening near you? Find everything from parks, events, projects, and garbage pick up details</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 content">
+          <div class="test" id="digital">
+            <a href=# class="ref">
+              <div class="panel-image">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/asset/digital-services-academy_1.png" alt="Digital Services">
+              </div>
+              <div class="panel-text">
+                <h2 class="header2">Welcome to Orlando.gov</h2>
+                <p class="overview">We worked out the bugs, surveyed residents and continue to make improvements.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="blog-footer">
       <div class="row foot1">
