@@ -155,10 +155,68 @@
     </div><!-- /.container -->
 
     <footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
+      <div class="row foot1">
+        <div class="col-xs-4 text-left">
+          <h5>City Hall</h5>
+          <p>400 South Orange Avenue<br>Orlando, Florida 32801<br>407.246.2121</p>
+          <p>
+            Monday - Friday 8 a.m. to 5 p.m.<br>
+            <u><a href="https://www.orlando.gov/Directory/City-Buildings-Centers/City-Hall/Observed-Holidays" target="_self">Observed holidays</a></u>
+          </p>
+        </div>
+        <div class="col-xs-4 text-left">
+          <h5>Contact Us</h5>
+          <p><u><a href="https://www.orlando.gov/Our-Government/Contact-Us" target="_self">City Directory</a></u></p>
+          <p><u><a href="https://www.orlando.gov/Our-Government/Get-Involved/City-Newsletter" target="_self">Subscribe to City News</a></u></p>
+          <p><u><a href="http://www.downtownorlando.com" target="_blank">Downtownorlando.com</a></u></p>
+        </div>
+        <div class="col-xs-4 text-left">
+          <ul>
+            <li class="footer-link-facebook">
+              <i></i><a href="http://www.facebook.com/cityoforlando" target="_blank">Facebook</a>
+            </li>
+            <li class="footer-link-twitter">
+              <a href="http://www.twitter.com/citybeautiful" target="_blank"><i></i>Twitter</a>
+            </li>
+            <li class="footer-link-youtube">
+	            <a href="http://www.youtube.com/cityoforlando" target="_blank"><i></i>YouTube</a>
+            </li>
+            <li class="footer-link-flickr">
+	            <a href="https://www.flickr.com/photos/cityoforlando" target="_blank"><i></i>Flickr</a>
+            </li>
+            <li class="footer-link-instagram">
+	            <a href="http://instagram.com/thecitybeautiful" target="_blank"><i></i>Instagram</a>
+            </li>
+            <li class="footer-link-snapchat">
+	            <a href="http://www.cityoforlando.net/snapchat/" target="_blank"><i></i>Snapchat</a></li>
+            <li class="footer-link-linkedin">
+	            <a href="https://www.linkedin.com/company/city-of-orlando" target="_blank"><i></i>LinkedIn</a>
+            </li>
+            <li class="footer-link-nextdoor">
+              <a href="https://nextdoor.com/agency-detail/fl/orlando/city-of-orlando-office-of-communications-neighborhood-relations/" target="_blank"><i></i>Nextdoor</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 text-left">
+          <p>
+            <u><a href="https://gis.orlando.gov/orlandoinformationlocator/" target="_blank">Information Locator</a></u>
+          </p>
+          <p>The City of Orlando strives to make our online services accessible for everyone. If you require a reasonable accommodation, please email your request to 
+            <u><a href="mailto:ADARequest@orlando.gov">ADARequest@orlando.gov</a>.</u>
+          </p>
+        </div>
+      </div>
+      <div class="row foot2">
+        <div class="col-xs-6 text-left">
+          <a href="https://www.orlando.gov/System-pages/Website-Legal-Notices" target="_self">Website Legal Notice</a>
+          | 
+          <a href="https://www.orlando.gov/General-Pages/Sitemap" target="_self">Sitemap</a>
+        </div>
+        <div class="col-xs-6 text-right">
+          © 2019 City of Orlando | Powered by 
+          <u><a href="http://www.opencities.com" target="_blank">OpenCities</a></u>
+        </div>
+      </div>
     </footer>
 
 
