@@ -50,6 +50,33 @@
 
         <div class="col-sm-8 blog-main">
 
+          <div class="container-fluid">
+
+            <div class="card" style="width:400px">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Pygmy_Goat_002.jpg/220px-African_Pygmy_Goat_002.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">City Council Meeting</h4>
+                <p class="card-text">The Orlando City Council meets regularly to discuss and vote
+                                      on official city business. Members of the Orlando City Council are
+                                      the Mayor, elected at-large, and six City Commissioners who are elected 
+                                      from respective districts.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:400px">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Pygmy_Goat_002.jpg/220px-African_Pygmy_Goat_002.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Greenwood Cemetery Moonlight Walking Tour</h4>
+                <p class="card-text">The Moonlight Walking Tour take you on historical 
+                                      stroll through Greenwood Cemetery. Visit about 100 graves 
+                                      of notable individuals in Orlando's history.</p>
+              </div>
+            </div>
+
+            <button type="button" class="btn-primary">View More Events</button>
+
+          </div>
+
           <div class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
             <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
