@@ -27,18 +27,6 @@ h6, .h6 {
  * Override Bootstrap's default container.
  */
 
-@media (min-width: 1200px) {
-  .container {
-    width: 100%;
-    height: 450px;
-    margin-top:-50px;
-    background:  linear-gradient(to bottom,rgba(255, 255, 255, 0.0), #333 10%);
-    /* background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
-    float: left;
-    /* padding: 0px; */
-  }
-}
-
 
 /*
  * Masthead for nav
@@ -87,26 +75,12 @@ h6, .h6 {
  * Blog name and description
  */
 
-.overlay{
-  width: 100%;
-  height: 100%;
-  background-color: rgba(1,0,0,0.25);
-}
-
 /* .content-below{
   width: 100%;
   height: 500px;
   background:
 } */
 
-.blog-header {
-  width: 100%;
-  height: 510px;
-  /* position: absolute; */
-  background-image: url("../asset/backgroud.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
 .blog-title {
   margin-top: 30px;
   margin-bottom: 0;
@@ -121,12 +95,7 @@ h6, .h6 {
 /*
  * Main column and sidebar layout
  */
-.img-logo {
-  margin: 40px 0px 0px 105px;
-}
-.search{
-  height: 70px;
-}
+
 
 .blog-main {
   font-size: 18px;
@@ -177,109 +146,4 @@ h6, .h6 {
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
-}
-
-
-/*
- * Footer
- */
-
- .blog-footer {
-  background-color: white;
-  color: #505050;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
-}
-
-.blog-footer a, .blog-footer a:visited {
-  color: #505050 !important;
-}
-
-.blog-footer a:hover, .blog-footer a:active {
-  color: #505050 !important;
-}
-
-.blog-footer > div {
-  margin: 0 auto;
-  max-width: 1175px;
-}
-
-.blog-footer > div > div {
-  margin-bottom: 30px;
-}
-
-.foot1 {
-  padding: 40px 10px 50px;
-}
-
-.foot2 {
-  font-size: 1.25rem;
-  padding: 40px 10px 120px;
-  border-top: 1px solid #e5e5e5;
-}
-
-.blog-footer ul {
-  box-sizing: border-box;
-  margin: 10px 0 10px 10px;
-  list-style-image: none;
-  list-style-position: outside;
-  list-style-type: none;
-}
-
-.blog-footer ul li {
-  float: left;
-  height: 30px;
-  width: 120px;
-  margin-left: 32px;
-}
-
-.blog-footer ul i {
-  background-size: 600px 599px;
-  border-radius: 2px;
-  display: block;
-  float: none;
-  position: absolute;
-  margin-left: -30px;
-  height: 23px;
-  width: 23px;
-}
-
-.footer-link-facebook i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -68px -571px;
-}
-
-.footer-link-twitter i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -100px -571px;
-}
-
-.footer-link-youtube i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -132px -571px;
-}
-
-.footer-link-flickr i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -292px -572px;
-}
-
-.footer-link-instagram i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -165px -572px;
-}
-
-.footer-link-snapchat i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -419px -572px;
-}
-
-.footer-link-linkedin i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -228px -572px;
-}
-
-.footer-link-nextdoor i {
-  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
-  background-position: -452px -572px;
 }

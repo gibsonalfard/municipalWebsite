@@ -1,0 +1,243 @@
+/*
+Theme Name: Start Wordpress
+Author: Ilham Gibran, M. Reyhan Soeharto
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+/* .row {
+    border: 1px solid black;
+} */
+
+/* Ilham Gibran */
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+        height: 450px;
+        margin-top:-50px;
+        background:  linear-gradient(to bottom,rgba(255, 255, 255, 0.0), #333 10%);
+        /* background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
+        float: left;
+        /* padding: 0px; */
+    }
+}
+
+.img-logo {
+    margin: 40px 0px 0px 105px;
+}
+
+.search {
+height: 70px;
+}
+
+.blog-header {
+    width: 100%;
+    height: 510px;
+    /* position: absolute; */
+    background-image: url("../asset/backgroud.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,0,0,0.25);
+}
+
+/* Reyhan Soeharto */
+.con-fld {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-area {
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 60px 50px 60px 50px;
+    background-color: #F4F6F8;
+    /* border: 1px solid black; */
+}
+
+.content {
+    text-align: center;
+    padding: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* border: 1px solid black; */
+}
+
+.ref {
+    color: black;
+}
+
+.ref:hover {
+    color: #5b8599;
+    text-decoration: none;
+}
+
+.test {
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 4px;
+    border-top: 5px solid #DA8B00;
+    margin-left: 35px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    height: 450px;
+    transition: box-shadow .3s;
+}
+
+.test:hover {
+    box-shadow: 0 0 50px rgba(33,33,33,.2);
+    color: 5b8599;
+}
+
+#neighborhood {
+    border-top-color: #4A6E34;
+}
+
+#digital {
+    border-top-color: #00B1BD;
+}
+
+.panel-image {
+    /* border: 1px solid blue; */
+    padding: 0px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+}
+
+.panel-image img {
+    width: 100%;
+}
+
+.panel-text {
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans';
+    /* font-family: "Open Sans",sans-serif; */
+    text-align: left;
+    /* margin: 0px 45px 0px 45px; */
+    /* width: 300px; */
+    /* height: 450px; */
+    padding: 30px;
+    /* border: 1px solid red; */
+}
+
+.overview {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header2 {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: 100;
+}
+
+/*
+ * Footer
+ */
+
+ .blog-footer {
+    background-color: white;
+    color: #505050;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .blog-footer a, .blog-footer a:visited {
+    color: #505050 !important;
+  }
+  
+  .blog-footer a:hover, .blog-footer a:active {
+    color: #505050 !important;
+  }
+  
+  .blog-footer > div {
+    margin: 0 auto;
+    max-width: 1175px;
+  }
+  
+  .blog-footer > div > div {
+    margin-bottom: 30px;
+  }
+  
+  .foot1 {
+    padding: 40px 10px 50px;
+  }
+  
+  .foot2 {
+    font-size: 1.25rem;
+    padding: 40px 10px 120px;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .blog-footer ul {
+    box-sizing: border-box;
+    margin: 10px 0 10px 10px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+  }
+  
+  .blog-footer ul li {
+    float: left;
+    height: 30px;
+    width: 120px;
+    margin-left: 32px;
+  }
+  
+  .blog-footer ul i {
+    background-size: 600px 599px;
+    border-radius: 2px;
+    display: block;
+    float: none;
+    position: absolute;
+    margin-left: -30px;
+    height: 23px;
+    width: 23px;
+  }
+  
+  .footer-link-facebook i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -68px -571px;
+  }
+  
+  .footer-link-twitter i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -100px -571px;
+  }
+  
+  .footer-link-youtube i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -132px -571px;
+  }
+  
+  .footer-link-flickr i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -292px -572px;
+  }
+  
+  .footer-link-instagram i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -165px -572px;
+  }
+  
+  .footer-link-snapchat i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -419px -572px;
+  }
+  
+  .footer-link-linkedin i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -228px -572px;
+  }
+  
+  .footer-link-nextdoor i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -452px -572px;
+  }

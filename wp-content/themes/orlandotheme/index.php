@@ -16,9 +16,8 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <link href="<?php echo get_bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/blog.css" rel="stylesheet">
-
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+    <!-- <link href="<?php echo get_bloginfo('template_directory'); ?>/css/blog.css" rel="stylesheet"> -->
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/style.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
