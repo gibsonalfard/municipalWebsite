@@ -1,6 +1,9 @@
 /*
  * Globals
  */
+*{
+  font-family: roboto;
+}
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;

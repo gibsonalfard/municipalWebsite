@@ -25,7 +25,7 @@
     <?php wp_head();?>
   </head>
 
-  <body>
+  <body class="body-web">
 
     <div class="blog-masthead">
       <div class="container">
