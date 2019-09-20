@@ -182,12 +182,101 @@ h6, .h6 {
  */
 
 .blog-footer {
-  padding: 40px 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
+  background-color: white;
+  color: #505050;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.blog-footer a, .blog-footer a:visited {
+  color: #505050 !important;
+}
+
+.blog-footer a:hover, .blog-footer a:active {
+  color: #505050 !important;
+}
+
+.blog-footer > div {
+  margin: 0 auto;
+  max-width: 1175px;
+}
+
+.blog-footer > div > div {
+  margin-bottom: 30px;
+}
+
+.foot1 {
+  padding: 40px 10px 50px;
+}
+
+.foot2 {
+  font-size: 1.25rem;
+  padding: 40px 10px 120px;
   border-top: 1px solid #e5e5e5;
 }
-.blog-footer p:last-child {
-  margin-bottom: 0;
+
+.blog-footer ul {
+  box-sizing: border-box;
+  margin: 10px 0 10px 10px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+.blog-footer ul li {
+  float: left;
+  height: 30px;
+  width: 120px;
+  margin-left: 32px;
+}
+
+.blog-footer ul i {
+  background-size: 600px 599px;
+  border-radius: 2px;
+  display: block;
+  float: none;
+  position: absolute;
+  margin-left: -30px;
+  height: 23px;
+  width: 23px;
+}
+
+.footer-link-facebook i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -68px -571px;
+}
+
+.footer-link-twitter i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -100px -571px;
+}
+
+.footer-link-youtube i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -132px -571px;
+}
+
+.footer-link-flickr i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -292px -572px;
+}
+
+.footer-link-instagram i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -165px -572px;
+}
+
+.footer-link-snapchat i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -419px -572px;
+}
+
+.footer-link-linkedin i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -228px -572px;
+}
+
+.footer-link-nextdoor i {
+  background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+  background-position: -452px -572px;
 }
