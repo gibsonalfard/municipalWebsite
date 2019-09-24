@@ -23,6 +23,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+        
+    </script>
   </head>
 
   <body>
@@ -48,107 +51,88 @@
 
       <div class="row">
 
-        <div class="col-sm-8 blog-main">
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">Sample blog post</h2>
-            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-            <hr>
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-            <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <h2>Heading</h2>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <pre><code>Example code block</code></pre>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
+        <div class="col-sm-12">
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#">Do it Online</a></li>
+              <li><a data-toggle="tab" href="#">Event</a></li>
             </ul>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            <ol>
-              <li>Vestibulum id ligula porta felis euismod semper.</li>
-              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-            </ol>
-            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-          </div><!-- /.blog-post -->
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">Another blog post</h2>
-            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-            <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          </div><!-- /.blog-post -->
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">New feature</h2>
-            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          </div><!-- /.blog-post -->
-
-          <nav>
-            <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
-            </ul>
-          </nav>
-
+            <div class="tab-content">
+              <div id="doItOnline">
+                <div class="row">
+                  <div class="panel panel-default col-md-4">
+                    <div class = "col-sm-3"><img class="box_image" src="1.png"></div>
+                    <div class = "content col-sm-9">
+                        <div class="title">Report a Problem</div>
+                        <div class="preview">Report graffiti, a problem tree or missed garbage pick up</div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="2.png"></div>
+                        <div class = "content col-sm-9">
+                        <div class="title">Building & Development</div>
+                        <div class="preview">Report a code enforcement violation, apply for a permit and find your property's zoning category</div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="8.png"></div>
+                        <div class = "content col-sm-9">
+                         <div class="title">Parking & Environment</div>
+                        <div class="preview">Report a code enforcement violation, apply for a permit and find your property's zoning category<div>ly for a permit and find your property's zoning category</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="4.jpg"></div>
+                        <div class = "content col-sm-9">
+                        <div class="title">Trash & Recycling</div>
+                        <div class="preview">View garbage pick up schedules, request a free composter and schedule large item pick up</div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="4.jpg"></div>
+                        <div class = "content col-sm-9">
+                        <div class="title">Parks & Environment</div>
+                        <div class="preview">Find parks and neighborhoos centers, report a problem tree and reserve a park</div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="4.jpg"></div>
+                        <div class = "content col-sm-9">
+                       <div class="title">Public Safety</div>
+                        <div class="preview">Public safety services provided by the Orlando Police Departement and the Orlando Fire Departement</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                 <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="4.jpg"></div>
+                        <div class = "content col-sm-9">
+                        <div class="title">Community Programs & Events</div>
+                        <div class="preview">Learn about events, register for summer camp and volunteer with the City of Orlando</div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="4.jpg"></div>
+                        <div class = "content col-sm-9">
+                         <div class="title">Our Government</div>
+                        <div class="preview">Request a public record, apply for a city job and read the lastest news from the City of Orlando</div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default col-sm-4">
+                     <div class = "col-sm-3"><img class="box_image" src="4.jpg"></div>
+                        <div class = "content col-sm-9">
+                        <div class="title">Explore Your Neighborhood</div>
+                        <div class="preview">Discover city parks & facilities, elected officials and garbage pick up days based on your address</div>
+                      </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
         </div><!-- /.blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </div>
-          <div class="sidebar-module">
-            <h4>Archives</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
-              <li><a href="#">November 2013</a></li>
-              <li><a href="#">October 2013</a></li>
-              <li><a href="#">September 2013</a></li>
-              <li><a href="#">August 2013</a></li>
-              <li><a href="#">July 2013</a></li>
-              <li><a href="#">June 2013</a></li>
-              <li><a href="#">May 2013</a></li>
-              <li><a href="#">April 2013</a></li>
-            </ol>
-          </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
+        
 
       </div><!-- /.row -->
 
