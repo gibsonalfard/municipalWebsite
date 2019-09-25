@@ -3,7 +3,7 @@
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:  Arial, serif;
   color: #555;
 }
 
@@ -171,17 +171,12 @@ h6, .h6 {
 }
 
 
-.box{
-  box-shadow: 5px 10px #888888;
-  margin: 3px;
-}
-
 .panel{
   margin: 10px 10px 10px 0px;
   width: 32%;  
   height : 300px;
   border:0px;
-  padding : 10px;
+  padding : 20px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -202,7 +197,7 @@ img.box_image{
 }
 
 .panel:hover img.box_image{
-  color: #22567d;
+  background-color: #22567d;
   border-radius: 5px;
 }
 
