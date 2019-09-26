@@ -172,9 +172,11 @@ h6, .h6 {
 
 
 .panel{
+
   margin: 10px 10px 10px 0px;
   width: 32%;  
-  height : 300px;
+  height : auto;
+  min-height: 350px;
   border:0px;
   padding : 20px;
   padding-left: 0px;
@@ -187,13 +189,14 @@ h6, .h6 {
   border-radius: 0px;
 }
 
-.panel:hover .title ,.panel:hover .preview{
+.panel:hover h2 ,.panel:hover .preview{
     color: #22567d;
 }
 
 img.box_image{
-  width: 100%;
-  height: width;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
 }
 
 .panel:hover img.box_image{
@@ -201,15 +204,9 @@ img.box_image{
   border-radius: 5px;
 }
 
-.title{
-  font-size: 22px;
-  margin: 10px 0px;
-  font-weight: bold;
-  color : black;
-}
 
 .preview{
-  font-size: 19px;
+  font-size: 18px;
   color: gray;
 }
 
@@ -226,6 +223,7 @@ img.box_image{
   position: relative;
   top:15px;
   border-radius: 0px;
+  border: 2px;
 }
 
 .nav-tabs li.active a{
@@ -245,4 +243,14 @@ img.box_image{
 .nav-tabs .tab-content{
   border: 2px black;
   padding: 10px;
+}
+
+.blog-content{
+  margin : 0 30px 0 30px;
+  max-width: 95%;
+  word-spacing: 1px;
+}
+
+.content h2{
+  font-size: 24px;
 }

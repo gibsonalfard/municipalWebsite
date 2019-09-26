@@ -51,7 +51,7 @@
 
       <div class="row">
 
-        <div class="col-sm-12">
+        <div class="col-md-12 blog-content">
             <ul class="nav nav-tabs">
               <li class="active"><a data-toggle="tab" href="#">Do it Online</a></li>
               <li><a data-toggle="tab" href="#">Event</a></li>
@@ -60,69 +60,69 @@
               <div id="doItOnline">
                 <div class="row">
                   <div class="panel panel-default col-md-4">
-                    <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/1.png"></div>
-                    <div class = "content col-sm-9">
-                        <div class="title">Report a Problem</div>
+                    <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/1.png"></div>
+                    <div class = "content col-md-9">
+                        <h2>Report a Problem</h2>
                         <div class="preview">Report graffiti, a problem tree or missed garbage pick up</div>
                     </div>
                   </div>
-                  <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/2.png"></div>
-                        <div class = "content col-sm-9">
-                        <div class="title">Building & Development</div>
+                  <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/2.png"></div>
+                        <div class = "content col-md-9">
+                        <h2>Building & Development</h2>
                         <div class="preview">Report a code enforcement violation, apply for a permit and find your property's zoning category</div>
                       </div>
                   </div>
-                  <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/3.png"></div>
-                        <div class = "content col-sm-9">
-                         <div class="title">Parking & Environment</div>
+                  <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/3.png"></div>
+                        <div class = "content col-md-9">
+                        <h2>Parking & Environment</h2>
                         <div class="preview">Report a code enforcement violation, apply for a permit and find your property's zoning category<div>ly for a permit and find your property's zoning category</div>
                       </div>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/4.png"></div>
-                        <div class = "content col-sm-9">
-                        <div class="title">Trash & Recycling</div>
+                  <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/4.png"></div>
+                        <div class = "content col-md-9">
+                        <h2>Trash & Recycling</h2>
                         <div class="preview">View garbage pick up schedules, request a free composter and schedule large item pick up</div>
                       </div>
                   </div>
-                  <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/5.png"></div>
-                        <div class = "content col-sm-9">
-                        <div class="title">Parks & Environment</div>
+                  <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/5.png"></div>
+                        <div class = "content col-md-9">
+                        <h2>Parks & Environment</h2>
                         <div class="preview">Find parks and neighborhoos centers, report a problem tree and reserve a park</div>
                       </div>
                   </div>
-                  <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/6.png"></div>
-                        <div class = "content col-sm-9">
-                       <div class="title">Public Safety</div>
+                  <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/6.png"></div>
+                        <div class = "content col-md-9">
+                       <h2>Public Safety</h2>
                         <div class="preview">Public safety services provided by the Orlando Police Departement and the Orlando Fire Departement</div>
                       </div>
                   </div>
                 </div>
                 <div class="row">
-                 <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/7.png"></div>
-                        <div class = "content col-sm-9">
-                        <div class="title">Community Programs & Events</div>
+                 <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/7.png"></div>
+                        <div class = "content col-md-9">
+                        <h2>Community Programs & Events</h2>
                         <div class="preview">Learn about events, register for summer camp and volunteer with the City of Orlando</div>
                       </div>
                   </div>
-                  <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/8.png"></div>
-                        <div class = "content col-sm-9">
-                         <div class="title">Our Government</div>
+                  <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/8.png"></div>
+                        <div class = "content col-md-9">
+                         <h2>Our Government</h2>
                         <div class="preview">Request a public record, apply for a city job and read the lastest news from the City of Orlando</div>
                       </div>
                   </div>
-                  <div class="panel panel-default col-sm-4">
-                     <div class = "col-sm-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/9.png"></div>
-                        <div class = "content col-sm-9">
-                        <div class="title">Explore Your Neighborhood</div>
+                  <div class="panel panel-default col-md-4">
+                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/9.png"></div>
+                        <div class = "content col-md-9">
+                        <h2>Explore Your Neighborhood</h2>
                         <div class="preview">Discover city parks & facilities, elected officials and garbage pick up days based on your address</div>
                       </div>
                   </div>
