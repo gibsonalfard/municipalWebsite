@@ -117,6 +117,7 @@ h6, .h6 {
   margin: 0 -15px 15px;
 }
 .sidebar-module-inset {
+  margin-top: 2000px;
   padding: 15px;
   background-color: #f5f5f5;
   border-radius: 4px;
@@ -172,5 +173,3 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
-
-*/

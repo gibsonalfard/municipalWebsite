@@ -49,11 +49,12 @@
     <div class="row">
         <div class="col-md-12 blog-content">
             <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#">Do it Online</a></li>
-              <li><a data-toggle="tab" href="#">Event</a></li>
+              <li class="active"><a data-toggle="tab" href="#" onclick="toogleTab(1)">Do it Online</a></li>
+              <li><a data-toggle="tab" href="#" onclick="toogleTab(2)">Event</a></li>
             </ul>
             <div class="tab-content">
-              <div id="doItOnline">
+
+            <div id="doItOnline">
                 <div class="row panel-row">
                   <div class="panel panel-default col-md-4">
                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/asset/1.png"></div>
@@ -99,7 +100,7 @@
                         <div class="preview">Public safety services provided by the Orlando Police Departement and the Orlando Fire Departement</div>
                       </div>
                   </div>
-                </div></div>
+                </div>
                 <div class="row panel-row">
                  <div class="panel panel-default col-md-4">
                      <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/asset/7.png"></div>
@@ -122,9 +123,37 @@
                         <div class="preview">Discover city parks & facilities, elected officials and garbage pick up days based on your address</div>
                       </div>
                   </div>
-                </div></div>
+                </div>
                 
               </div>
+
+              <div id="eventTab" class="hidden">
+                <div class="container-fluid-event">
+                  <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Pygmy_Goat_002.jpg/220px-African_Pygmy_Goat_002.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">City Council Meeting</h4>
+                      <p class="card-text">The Orlando City Council meets regularly to discuss and vote
+                                            on official city business. Members of the Orlando City Council are
+                                            the Mayor, elected at-large, and six City Commissioners who are elected 
+                                            from respective districts. </p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Pygmy_Goat_002.jpg/220px-African_Pygmy_Goat_002.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4 class="card-title">Greenwood Cemetery Moonlight Walking Tour</h4>
+                      <p class="card-text">The Moonlight Walking Tour take you on historical 
+                                            stroll through Greenwood Cemetery. Visit about 100 graves 
+                                            of notable individuals in Orlando's history.</p>
+                    </div>
+                  </div>
+
+                  <button type="button" class="btn-primary btn-event">View More Events</button>
+                </div>
+              </div> <!-- Event -->
+
             </div>
         </div><!-- /.blog-main -->
         
@@ -246,6 +275,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/script.js"></script>
     <?php wp_footer(); ?>
   </body>
 </html>
