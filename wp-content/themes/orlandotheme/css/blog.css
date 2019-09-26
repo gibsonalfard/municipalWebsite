@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:  Arial, serif;
   color: #555;
 }
 
@@ -27,6 +27,15 @@ h6, .h6 {
  * Override Bootstrap's default container.
  */
 
+<<<<<<< HEAD:wp-content/themes/orlandotheme/css/blog.css
+=======
+@media (min-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+>>>>>>> alifia:wp-content/themes/orlandotheme/blog.css
 
 /*
  * Masthead for nav
@@ -147,3 +156,21 @@ h6, .h6 {
   margin-bottom: 20px;
   color: #999;
 }
+
+
+/*
+ * Footer
+ */
+
+/* .blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+*/

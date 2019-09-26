@@ -14,12 +14,17 @@ Tags: bootstrap
 @media (min-width: 1200px) {
     .container {
         width: 100%;
-        height: 450px;
+        min-height: 450px;
         margin-top:-50px;
-        background:  linear-gradient(to bottom,rgba(255, 255, 255, 0.0), #333 10%);
+        background:  linear-gradient(to bottom,rgba(255, 255, 255, 0.0), #333 5%);
         /* background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
         float: left;
-        /* padding: 0px; */
+        /* margin-left: 0px; */
+        padding: 0px;
+    }
+
+    .container > .row{
+      margin:0px;
     }
 }
 
@@ -58,10 +63,13 @@ height: 70px;
     text-align: center;
     padding: 60px 50px 60px 50px;
     background-color: #F4F6F8;
+    margin-left: -10px;
+    margin-right: -10px;
     /* border: 1px solid black; */
 }
 
 .content {
+    margin-top: 20px;
     text-align: center;
     padding: 0px;
     padding-left: 1%;
@@ -240,4 +248,99 @@ height: 70px;
   .footer-link-nextdoor i {
     background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
     background-position: -452px -572px;
+  }
+
+  /* Alifia */
+  .tab-content{
+    padding : 20px;
+    background: #fff;
+    margin-bottom: 40px;
+  } 
+
+  .panel{
+
+    margin: 10px 10px 10px 0px;
+    width: 32%;  
+    height : auto;
+    min-height: 350px;
+    border:0px;
+    padding : 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .panel:hover{
+    border:1px solid white;
+    box-shadow:0px 0px 15px #b5bdc3;
+    border-radius: 0px;
+  }
+  
+  .panel:hover h2 ,.panel:hover .preview{
+      color: #22567d;
+  }
+  
+  img.box_image{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+  
+  .panel:hover img.box_image{
+    background-color: #22567d;
+    border-radius: 5px;
+  }
+  
+  
+  .preview{
+    font-size: 18px;
+    color: gray;
+  }
+  
+  
+  .nav-tabs li a {
+    color: #fff;
+    background-color:#22567d;
+    margin: 1px;
+    padding:30px;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    height: 85px;
+    position: relative;
+    top:15px;
+    border-radius: 0px;
+    border: 2px;
+  }
+  
+  .nav-tabs li.active a{
+    background-color:#fff; 
+    color: #22567d;
+    height:100px;
+    position: relative;
+    top:0px;
+    border-radius: 5px;
+  }
+  
+  .nav-tabs li a:hover{
+    background-color:#fff; 
+    color: #22567d;
+  }
+  
+  .nav-tabs .tab-content{
+    border: 2px black;
+    padding: 10px;
+  }
+
+  .panel-row{
+    margin-left:10px;
+  }
+  
+  .blog-content{
+    margin : 0 30px 0 30px;
+    max-width: 95%;
+    word-spacing: 1px;
+  }
+  
+  .content h2{
+    font-size: 24px;
   }
