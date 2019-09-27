@@ -29,7 +29,9 @@
     <?php wp_head();?>
   </head>
 
-  <div class="container">
+  <body>
+    <div class="container">
+        <div class="row">
         <!-- Push Wrapper -->
         <div class="mp-pusher" id="mp-pusher">
 
@@ -137,6 +139,12 @@
             
             </div><!-- /.blog-main -->
 
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="container-fluid con-fld">
+      <div class="row content-area">
                   <button type="button" class="btn-primary btn-event">View More Events</button>
                 </div>
               </div> <!-- Event -->
