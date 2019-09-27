@@ -166,18 +166,22 @@ h6, .h6 {
   margin-bottom: 0;
 }
 
+
+/* ALIFIA */
+
 .tab-content{
   padding : 20px;
 }
 
-
 .panel{
-
   margin: 10px 10px 10px 0px;
-  width: 32%;  
-  height : auto;
-  min-height: 350px;
+  width: 32%;
+  height: 350px;
   border:0px;
+
+}
+
+.co{
   padding : 20px;
   padding-left: 0px;
   padding-right: 0px;
@@ -204,12 +208,10 @@ img.box_image{
   border-radius: 5px;
 }
 
-
 .preview{
   font-size: 18px;
   color: gray;
 }
-
 
 .nav-tabs li a {
   color: #fff;
@@ -253,4 +255,57 @@ img.box_image{
 
 .content h2{
   font-size: 24px;
+}
+
+@media screen and (max-width: 750px){
+  .preview{
+    display: none;
+  }
+
+  .tab-content{
+    padding : 20px;
+  }
+  
+  .blog-content{
+    margin : 0;
+  }
+  
+  .panel{
+    /*display: inline;*/
+    margin: 0 auto;
+    width: 100%;  
+    max-height: 80px;
+   border-bottom: 1px solid lightgrey;
+    /*padding : 5px;*/
+  }
+  .panel:hover{
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .panel:hover{
+    box-shadow:0px 0px 0px ;
+  }
+
+  img.box_image{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+  }
+
+  .co {
+    
+    display: -webkit-box;
+    -webkit-box-align: center;
+     
+    display: -moz-box;
+    -moz-box-align: center;
+
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+
+    display: box;
+    box-align: center;
+        -webkit-align-items: center;
+  align-items: center;
+  }
 }
