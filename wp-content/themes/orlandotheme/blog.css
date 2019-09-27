@@ -169,12 +169,14 @@ h6, .h6 {
 .card {
   background-color: #ffffff;
   min-width: 50px;
+  width: 300px;
   height: 450px;
   overflow: hidden;
   padding: 20px;
-  margin-left: 10px;
   float: left;
-  width: 300px;
+  margin-left: 10px;
+  margin-top: 10px;
+  
 }
 
 .card-title {
@@ -238,5 +240,22 @@ a {
   }
   100% {
     box-shadow: 0 0 0 0 hsla(180, 12%, 87%, 0.8);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gambar {
+    height: 50px;
+    width: 50px;
+  } 
+  .btn-primary {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container-fluid {
+    width: auto;
+    height: auto;
   }
 }

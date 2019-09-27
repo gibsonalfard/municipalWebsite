@@ -57,7 +57,7 @@
 
           <div class="container-fluid">
             <div class="card">
-              <img class="img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/asset/councilmeetingyoutubethumbnail2018_finalweb.png" alt="Card image">
+              <img class="gambar img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/asset/councilmeetingyoutubethumbnail2018_finalweb.png" alt="Card image">
               <div class="card-body">
                 <h4 class="card-title">City Council Meeting</h4>
                 <p class="card-text">The Orlando City Council meets regularly to discuss and vote
@@ -68,7 +68,7 @@
             </div>
 
             <div class="card">
-              <img class="img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/asset/071018_greenwood_0031.jpg" alt="Card image">
+              <img class="gambar img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/asset/071018_greenwood_0031.jpg" alt="Card image">
               <div class="card-body">
                 <h4 class="card-title">Greenwood Cemetery Moonlight Walking Tour</h4>
                 <p class="card-text">The Moonlight Walking Tour take you on historical 
