@@ -57,18 +57,18 @@
 
           <div class="container-fluid">
             <div class="card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Pygmy_Goat_002.jpg/220px-African_Pygmy_Goat_002.jpg" alt="Card image">
+              <img class="img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/asset/councilmeetingyoutubethumbnail2018_finalweb.png" alt="Card image">
               <div class="card-body">
                 <h4 class="card-title">City Council Meeting</h4>
                 <p class="card-text">The Orlando City Council meets regularly to discuss and vote
                                       on official city business. Members of the Orlando City Council are
                                       the Mayor, elected at-large, and six City Commissioners who are elected 
-                                      from respective districts. </p>
+                                      from respective districts.</p>
               </div>
             </div>
 
             <div class="card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Pygmy_Goat_002.jpg/220px-African_Pygmy_Goat_002.jpg" alt="Card image">
+              <img class="img-responsive" src="<?php echo get_bloginfo('template_directory'); ?>/asset/071018_greenwood_0031.jpg" alt="Card image">
               <div class="card-body">
                 <h4 class="card-title">Greenwood Cemetery Moonlight Walking Tour</h4>
                 <p class="card-text">The Moonlight Walking Tour take you on historical 
