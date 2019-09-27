@@ -52,7 +52,7 @@
               <li class="active"><a data-toggle="tab" href="#" onclick="toogleTab(1)">Do it Online</a></li>
               <li><a data-toggle="tab" href="#" onclick="toogleTab(2)">Event</a></li>
             </ul>
-            <div class="tab-content">
+            <div class="tab-content col-md-12">
 
             <div id="doItOnline">
                 <div class="row panel-row">
