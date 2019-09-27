@@ -56,21 +56,21 @@
 
             <div id="doItOnline">
                 <div class="row panel-row">
-                  <div class="panel panel-default col-md-4">
+                  <div class="panel panel-default col-sm-4 col-md-4">
                     <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/asset/1.png"></div>
                     <div class = "content col-md-9">
                         <h2>Report a Problem</h2>
                         <div class="preview">Report graffiti, a problem tree or missed garbage pick up</div>
                     </div>
                   </div>
-                  <div class="panel panel-default col-md-4">
+                  <div class="panel panel-default col-sm-4 col-md-4">
                      <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/asset/2.png"></div>
                         <div class = "content col-md-9">
                         <h2>Building & Development</h2>
                         <div class="preview">Report a code enforcement violation, apply for a permit and find your property's zoning category</div>
                       </div>
                   </div>
-                  <div class="panel panel-default col-md-4">
+                  <div class="panel panel-default col-sm-4 col-md-4">
                      <div class = "col-md-3"><img class="box_image" src="<?php echo get_bloginfo('template_url')?>/asset/3.png"></div>
                         <div class = "content col-md-9">
                         <h2>Parking & Environment</h2>
@@ -206,7 +206,7 @@
     </div>
     <footer class="blog-footer">
       <div class="row foot1">
-        <div class="col-xs-4 text-left">
+        <div class="col-md-4 col-sm-12 col-12 text-left">
           <h5>City Hall</h5>
           <p>400 South Orange Avenue<br>Orlando, Florida 32801<br>407.246.2121</p>
           <p>
@@ -214,13 +214,13 @@
             <u><a href="https://www.orlando.gov/Directory/City-Buildings-Centers/City-Hall/Observed-Holidays" target="_self">Observed holidays</a></u>
           </p>
         </div>
-        <div class="col-xs-4 text-left">
+        <div class="col-md-4 col-sm-12 col-12 text-left">
           <h5>Contact Us</h5>
           <p><u><a href="https://www.orlando.gov/Our-Government/Contact-Us" target="_self">City Directory</a></u></p>
           <p><u><a href="https://www.orlando.gov/Our-Government/Get-Involved/City-Newsletter" target="_self">Subscribe to City News</a></u></p>
           <p><u><a href="http://www.downtownorlando.com" target="_blank">Downtownorlando.com</a></u></p>
         </div>
-        <div class="col-xs-4 text-left">
+        <div class="col-md-4 col-sm-12 col-12 text-left icon-foot">
           <ul>
             <li class="footer-link-facebook">
               <i></i><a href="http://www.facebook.com/cityoforlando" target="_blank">Facebook</a>
@@ -247,7 +247,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-xs-12 text-left">
+        <div class="col-sm-12 col-12 text-left">
           <p>
             <u><a href="https://gis.orlando.gov/orlandoinformationlocator/" target="_blank">Information Locator</a></u>
           </p>

@@ -33,7 +33,13 @@ Tags: bootstrap
 }
 
 .search {
-height: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+}
+
+.btn-primary.search:hover{
+  background: #4A6E34;
+  border: 1px solid #fff;
 }
 
 .blog-header {
@@ -195,7 +201,7 @@ height: 70px;
   .blog-footer ul li {
     float: left;
     height: 30px;
-    width: 120px;
+    width: 35%;
     margin-left: 32px;
   }
   
@@ -209,7 +215,7 @@ height: 70px;
     height: 23px;
     width: 23px;
   }
-  
+
   .footer-link-facebook i {
     background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
     background-position: -68px -571px;
