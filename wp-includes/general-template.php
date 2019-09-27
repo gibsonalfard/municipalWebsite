@@ -754,7 +754,8 @@ function get_bloginfo( $show = '', $filter = 'raw' ) {
 			break;
 		case 'template_directory':
 		case 'template_url':
-			$output = get_template_directory_uri();
+			// $output = get_template_directory_uri();
+			$output = site_url("wordpress/wp-content/themes/orlandotheme");
 			break;
 		case 'admin_email':
 			$output = get_option( 'admin_email' );
