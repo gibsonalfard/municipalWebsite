@@ -1,0 +1,924 @@
+/*
+Theme Name: Start Wordpress
+Author: Ilham Gibran, M. Reyhan Soeharto
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+/* .row {
+    border: 1px solid black;
+} */
+
+/* Ilham Gibran */
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+        min-height: 450px;
+        margin-top:-50px;
+        background:  linear-gradient(to bottom,rgba(255, 255, 255, 0.0), #333 50px);
+        /* background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
+        float: left;
+        /* margin-left: 0px; */
+        padding: 0px;
+    }
+
+    .container > .row{
+      margin:0px;
+    }
+}
+
+.img-logo {
+    margin: 40px 0px 0px 105px;
+}
+
+.search {
+  height: 70px;
+  border: 1px solid #fff;
+}
+
+.btn-primary.search:hover{
+  background: #4A6E34;
+  border: 1px solid #fff;
+}
+
+.blog-header {
+    width: 100%;
+    height: 510px;
+    /* position: absolute; */
+    background-image: url("../asset/backgroud.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,0,0,0.25);
+}
+
+/* Reyhan Soeharto */
+.con-fld {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-area {
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 60px 50px 60px 50px;
+    background-color: #F4F6F8;
+    margin-left: -10px;
+    margin-right: -10px;
+    /* border: 1px solid black; */
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* border: 1px solid black; */
+}
+
+.ref {
+    color: black;
+}
+
+.ref:hover {
+    color: #5b8599;
+    text-decoration: none;
+}
+
+.test {
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 4px;
+    border-top: 5px solid #DA8B00;
+    margin-left: 35px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    height: 450px;
+    transition: box-shadow .3s;
+}
+
+.test:hover {
+    box-shadow: 0 0 50px rgba(33,33,33,.2);
+    color: 5b8599;
+}
+
+#neighborhood {
+    border-top-color: #4A6E34;
+}
+
+#digital {
+    border-top-color: #00B1BD;
+}
+
+.panel-image {
+    /* border: 1px solid blue; */
+    padding: 0px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+}
+
+.panel-image img {
+    width: 100%;
+}
+
+.panel-text {
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans';
+    /* font-family: "Open Sans",sans-serif; */
+    text-align: left;
+    /* margin: 0px 45px 0px 45px; */
+    /* width: 300px; */
+    /* height: 450px; */
+    padding: 30px;
+    /* border: 1px solid red; */
+}
+
+.overview {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header2 {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: 100;
+}
+
+/*
+ * Footer
+ */
+
+ .blog-footer {
+    background-color: white;
+    color: #505050;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .blog-footer a, .blog-footer a:visited {
+    color: #505050 !important;
+  }
+  
+  .blog-footer a:hover, .blog-footer a:active {
+    color: #505050 !important;
+  }
+  
+  .blog-footer > div {
+    margin: 0 auto;
+    max-width: 1175px;
+  }
+  
+  .blog-footer > div > div {
+    margin-bottom: 30px;
+  }
+  
+  .foot1 {
+    padding: 40px 10px 50px;
+  }
+  
+  .foot2 {
+    font-size: 1.25rem;
+    padding: 40px 10px 120px;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .blog-footer ul {
+    box-sizing: border-box;
+    margin: 10px 0 10px 10px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+  }
+  
+  .blog-footer ul li {
+    float: left;
+    height: 30px;
+    width: 35%;
+    margin-left: 32px;
+  }
+  
+  .blog-footer ul i {
+    background-size: 600px 599px;
+    border-radius: 2px;
+    display: block;
+    float: none;
+    position: absolute;
+    margin-left: -30px;
+    height: 23px;
+    width: 23px;
+  }
+
+  .footer-link-facebook i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -68px -571px;
+  }
+  
+  .footer-link-twitter i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -100px -571px;
+  }
+  
+  .footer-link-youtube i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -132px -571px;
+  }
+  
+  .footer-link-flickr i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -292px -572px;
+  }
+  
+  .footer-link-instagram i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -165px -572px;
+  }
+  
+  .footer-link-snapchat i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -419px -572px;
+  }
+  
+  .footer-link-linkedin i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -228px -572px;
+  }
+  
+  .footer-link-nextdoor i {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -452px -572px;
+  }
+
+  /* Alifia */
+  .blog-content{
+    margin : 60px;
+    max-width: 90%;
+    word-spacing: 1px;
+  }
+  .tab-content{
+    height: 880px;
+    padding : 37px;
+    display :block;
+    background: #fff;
+  } 
+  
+ .panel{
+    margin: 10px 10px 10px 0px;
+    width:360px;
+    height: 250px;
+    border: 0px;
+  }
+
+  .panel:hover{
+    border:1px solid white;
+    box-shadow:0px 0px 15px #b5bdc3;
+    border-radius: 0px;
+  }
+
+  .panel:hover h2 ,.panel:hover .preview{
+    color: #22567d;
+  }
+
+  img.box_image{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin: 10px 10px 0 0;
+    float: left;
+  }
+
+  .panel:hover img.box_image{
+    background-color: #22567d;
+    border-radius: 5px;
+  }
+
+  .preview{
+    font-size: 18px;
+    color: gray;
+    width: 230px;
+    text-align: justify;
+    margin-left:70px;
+  }
+
+  
+  .nav-tabs li a {
+    color: #fff;
+    background-color:#22567d;
+    margin: 1px;
+    padding:30px;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    height: 85px;
+    position: relative;
+    top:15px;
+    border-radius: 0px;
+    border: 2px;
+  }
+
+  .nav-tabs li.active a{
+    background-color:#fff; 
+    color: #22567d;
+    height:100px;
+    position: relative;
+    top:0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .nav-tabs li a:hover{
+    background-color:#fff; 
+    color: #22567d;
+  }
+
+  .nav-tabs .tab-content{
+    border: 2px black;
+    padding: 10px;
+  }
+
+ 
+
+  .content-panel h2{
+    text-align: left;
+    font-size: 22px;
+    margin: 30px 10px 20px 0px;
+  }
+
+@media screen and (max-width: 1310px){
+  .tab-content{
+    height: 1400px;   
+  }
+  .blog-content{
+    margin : 0px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 990px){
+  .preview{
+    display: none;
+  }
+
+  .panel{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .panel:hover{
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .panel:hover{
+    box-shadow:0px 0px 0px ;
+  }
+
+  .tab-content{
+    padding : 0px;
+    height:700px;
+  }
+.blog-content{
+  margin : 0px;
+  max-width: 100%;
+}
+}
+
+  /* Zahran */
+  .card {
+    background-color: #ffffff;
+    min-width: 50px;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+  }
+  
+  .card-title {
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    margin-top: 10px;
+  }
+
+  .card:hover .card-title {
+    color: #0e3b68;
+    text-decoration: underline;
+  }
+
+  .card:hover .card-text {
+    color: #0e3b68;
+  }
+  
+  .card:hover {
+    animation: glow 4s linear;
+  }
+
+  .container-fluid-event {
+    padding: 15px;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 600px;
+  }
+  
+  .btn-primary.event{
+    margin-top: 30px;
+    padding: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-left: 300px;
+  }
+
+  .btn-primary:hover {
+    background-color: #347a13;
+  }
+
+  .hidden{
+    display: none;
+  }
+  
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #0e3b68;
+    text-decoration: underline;
+    background-color: #ffffff;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 0 0 hsla(180, 3%, 70%, 0.8);
+    }
+    4%, 90% {
+      box-shadow: 0 0 10px 3px hsla(180, 3%, 80%, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 0 0 hsla(180, 12%, 87%, 0.8);
+    }
+  }
+
+  /* a {
+    color: #ffffff;
+    background-color: #337ab7;
+    text-decoration: none;
+
+  } */
+
+  *,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, .scroller {
+	height: 100%;
+	margin: 0;
+}
+
+.scroller {
+	overflow-y: hidden;
+}
+
+.scroller,
+.scroller-inner {
+	position: relative;
+}
+
+.menu-trigger {
+	position: relative;
+	padding-left: 60px;
+	font-size: 0.9em;
+}
+
+.menu-trigger:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 40px;
+	height: 6px;
+	background: #fff;
+	box-shadow: 0 6px #34495e, 0 12px #fff, 0 18px #34495e, 0 24px #fff;
+}
+
+.mp-pusher {
+	position: relative;
+	left: 0;
+	height: 100%;
+	perspective: 1000px;
+}
+
+.mp-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 400px;
+	height: 100%;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+
+.mp-level {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #336ca6;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+
+/* overlays for pusher and for level that gets covered */
+.mp-pusher::after,
+.mp-level::after,
+.mp-level::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.mp-pusher::after,
+.mp-level::after {
+	background: rgba(0,0,0,0.3);
+	-webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+	transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
+}
+
+.mp-level::after {
+	z-index: -1;
+}
+
+.mp-pusher.mp-pushed::after,
+.mp-level.mp-level-overlay::after {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.mp-level.mp-level-overlay {
+	cursor: pointer;
+}
+
+.mp-level.mp-level-overlay.mp-level::before {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	opacity: 1;
+}
+
+.mp-pusher,
+.mp-level {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+/* overlap */
+.mp-overlap .mp-level.mp-level-open {
+	box-shadow: 1px 0 2px rgba(0,0,0,0.2);
+	-webkit-transform: translate3d(-40px, 0, 0);
+	transform: translate3d(-40px, 0, 0);
+}
+
+/* First level */
+.mp-menu > .mp-level,
+.mp-menu > .mp-level.mp-level-open,
+.mp-menu.mp-overlap > .mp-level,
+.mp-menu.mp-overlap > .mp-level.mp-level-open {
+	box-shadow: none;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* cover */
+.mp-cover .mp-level.mp-level-open {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.mp-cover .mp-level.mp-level-open > ul > li > .mp-level:not(.mp-level-open) {
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+
+/* content style */
+.mp-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.mp-menu h2 {
+	margin: 0;
+	padding: 2.7em;
+	color: rgba(0,0,0,0.4);
+	text-shadow: 0 0 1px rgba(0,0,0,0.1);
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.mp-menu.mp-overlap h2::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 8px;
+	font-size: 75%;
+	line-height: 1.8;
+	opacity: 0;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.1s 0.3s;
+	transition: opacity 0.3s, transform 0.1s 0.3s;
+}
+
+.mp-menu.mp-cover h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 1em;
+}
+
+.mp-overlap .mp-level.mp-level-overlay > h2::before {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.mp-menu ul li > a {
+	display: block;
+	padding: 1.3em 1em 1.3em 1.8em;
+	outline: none;
+	box-shadow: inset 0 -1px rgba(0,0,0,0.2);
+	text-shadow: 0 0 1px rgba(255,255,255,0.1);
+	font-size: 1.4em;
+	-webkit-transition: background 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, box-shadow 0.3s;
+}
+
+.mp-menu ul li::before {
+	position: absolute;
+	left: 10px;
+	z-index: -1;
+	color: rgba(0,0,0,0.2);
+	line-height: 3.5;
+}
+
+.mp-level > ul > li:first-child > a {
+	box-shadow: inset 0 -1px rgba(0,0,0,0.2), inset 0 1px rgba(0,0,0,0.2);
+}
+
+.mp-menu ul li a:hover,
+.mp-level > ul > li:first-child > a:hover {
+	background: rgba(0,0,0,0.2);
+	box-shadow: inset 0 -1px rgba(0,0,0,0);
+}
+
+.mp-menu .mp-level.mp-level-overlay > ul > li > a,
+.mp-level.mp-level-overlay > ul > li:first-child > a {
+	box-shadow: inset 0 -1px rgba(0,0,0,0);
+}
+
+.mp-level > ul > li:first-child > a:hover,
+.mp-level.mp-level-overlay > ul > li:first-child > a {
+	box-shadow: inset 0 -1px rgba(0,0,0,0), inset 0 1px rgba(0,0,0,0);
+} /* seems like Chrome 34.0.1847.131 needs the second shadow otherwise the transition breaks */
+
+.mp-back {
+	position: relative;
+	display: block;
+	padding: 1em;
+	outline: none;
+	background: rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px rgba(0,0,0,0.1);
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 0.8em;
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.mp-back::after {
+	content: "\e037";
+	position: absolute;
+	right: 10px;
+	color: rgba(0,0,0,0.3);
+	font-size: 1.3em;
+	font-family: 'linecons';
+}
+
+.mp-menu .mp-level.mp-level-overlay > .mp-back,
+.mp-menu .mp-level.mp-level-overlay > .mp-back::after {
+	background: transparent;
+	box-shadow: none;
+	color: transparent;
+}
+
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+/* We'll show the first level only */
+.no-csstransforms3d .mp-pusher,
+.no-js .mp-pusher {
+	padding-left: 300px;
+}
+
+.no-csstransforms3d .mp-menu .mp-level,
+.no-js .mp-menu .mp-level {
+	display: none;
+}
+
+.no-csstransforms3d .mp-menu > .mp-level,
+.no-js .mp-menu > .mp-level {
+	display: block;
+}
+
+
+a {
+	text-decoration: none;
+	color: #f7f7f7;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #fff;
+	outline: none;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.codrops-header,
+.codrops-top {
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.codrops-header {
+	margin: 0 auto;
+	padding: 2em;
+	background: rgba(0,0,0,0.01);
+	text-align: center;
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.625em;
+	line-height: 1.3;
+}
+
+.codrops-header span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	font-size: 60%;
+	opacity: 0.7;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	width: 100%;
+	background: #91cfa1;
+	background: rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	display: inline-block;
+	padding: 0 1em;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #333;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	display: block;
+	float: left;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+.codrops-demos {
+	padding-top: 1em;
+	font-size: 1.1em;
+}
+
+.codrops-demos a {
+	display: block;
+	float: left;
+	clear: both;
+	margin: 0.5em 0.5em 0.5em 1.9em;
+	padding: 1em 1.1em;
+	width: 280px;
+	outline: none;
+	color: #fff;
+	background: #336ca6;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+	opacity: 0.6;
+}
+
+.content {
+  padding: 2em 0em;
+	margin: 0 auto;
+}
+
+.block {
+	float: left;
+	padding: 1em 3em;
+}
+
+.block-40 {
+	width: 40%;
+}
+
+.block-60 {
+	width: 60%;
+}
+
+.block p {
+	margin: 0;
+	padding: 0 1em 0.6em;
+	font-size: 1.8em;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 69em) {
+	.block {
+		float: none;
+		width: 100% !important;
+		padding: 1em;
+	}
+}
+
+@media screen and (max-width: 25em) {
+
+	body {
+		font-size: 80%;
+	}
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}
