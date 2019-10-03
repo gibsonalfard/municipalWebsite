@@ -63,7 +63,7 @@
                                 <a class="mp-back" href="#">back</a>
                                 <ul>
                                     <li><a href="#">Permits & Inspections</a></li>
-                                    <li><a href="#">Code Enforcement & COmpliance</a></li>
+                                    <li><a href="#">Code Enforcement & Compliance</a></li>
                                     <li><a href="#">Planning & Zoning Approvals</a></li>
                                     <li><a href="#">Housing and Development Grants, Incentives and Assistance</a></li>
                                 </ul>
@@ -74,10 +74,15 @@
                             <div class="mp-level">
                                 <a class="mp-back" href="#">back</a>
                                 <ul>
-                                    <li><a href="#">Permits & Inspections</a></li>
-                                    <li><a href="#">Code Enforcement & COmpliance</a></li>
-                                    <li><a href="#">Planning & Zoning Approvals</a></li>
-                                    <li><a href="#">Housing and Development Grants, Incentives and Assistance</a></li>
+                                    <li><a href="#">Parking</a></li>
+                                    <li><a href="#">Public Transit</a></li>
+                                    <li><a href="#">Report a Transportation Issue</a></li>
+                                    <li><a href="#">Red Light Camera Violations</a></li>
+                                    <li><a href="#">Download Orlando Transportation Options</a></li>
+                                    <li><a href="#">Find Road Closures</a></li>
+                                    <li><a href="#">Request a Special Event Road Closure</a></li>
+                                    <li><a href="#">Adopt a City Street</a></li>
+                                    <li><a href="#">Bike Trails</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -85,13 +90,74 @@
                             <a href="#">Trash & Recycling</a>
                             <div class="mp-level">
                                     <a class="mp-back" href="#">back</a>
+                                    <ul>
+                                    <li><a href="#">Trash, Recycling & Yard Waste Pick-Up Schedule</a></li>
+                                    <li><a href="#">Schedule Large Item Pick-Up</a></li>
+                                    <li><a href="#">What Goes Where</a></li>
+                                    <li><a href="#">Request a Recycling or Trash Cart</a></li>
+                                    <li><a href="#">Report a Missed Garbage cart Pick-Up</a></li>
+                                    <li><a href="#">Report a Missed Garbage Dumpster Pick-Up</a></li>
+                                    <li><a href="#">Request a Free Composter</a></li>
+                                </ul>
                             </div>
                         </li>
-                        <li><a href="#">Parks & the Environment</a></li>
-                        <li><a href="#">Public Safety</a></li>
-                        <li><a href="#">Community Programs & Events</a></li>
-                        <li><a href="#">Our Goverment</a></li>
-                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Parks & the Environment</a>
+                        <div class="mp-level">
+                                <a class="mp-back" href="#">back</a>
+                                <ul>
+                                    <li><a href="#">Permits & Inspections</a></li>
+                                    <li><a href="#">Code Enforcement & COmpliance</a></li>
+                                    <li><a href="#">Planning & Zoning Approvals</a></li>
+                                    <li><a href="#">Housing and Development Grants, Incentives and Assistance</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Public Safety</a>
+                          <div class="mp-level">
+                                <a class="mp-back" href="#">back</a>
+                                <ul>
+                                    <li><a href="#">Orlando Police Department Services</a></li>
+                                    <li><a href="#">Orlando Fire Department Services</a></li>
+                                </ul>
+                          </div>
+                        </li>
+                        <li><a href="#">Community Programs & Events</a>
+                        <div class="mp-level">
+                                <a class="mp-back" href="#">back</a>
+                                <ul>
+                                    <li><a href="#">Find Events</a></li>
+                                    <li><a href="#">Sports, Aquatics, & Fitness</a></li>
+                                    <li><a href="#">Find Park and Recreation Activity Listings</a></li>
+                                    <li><a href="#">Youth Programs</a></li>
+                                    <li><a href="#">Senior Programs</a></li>
+                                    <li><a href="#">Volunteer for Orlando</a></li>
+                                </ul>
+                          </div>
+                        </li>
+                        <li><a href="#">Our Goverment</a>
+                        <div class="mp-level">
+                                <a class="mp-back" href="#">back</a>
+                                <ul>
+                                    <li><a href="#">Mayor & City Council</a></li>
+                                    <li><a href="#">Department & Office</a></li>
+                                    <li><a href="#">Apply for a City Job</a></li>
+                                    <li><a href="#">Make Payment</a></li>
+                                    <li><a href="#">Get Involved</a></li>
+                                    <li><a href="#">Records and Documents</a></li>
+                                </ul>
+                          </div>
+                        </li>
+                        <li><a href="#">Events</a>
+                        <a class="mp-back" href="#">back</a>
+                                <ul>
+                                    <li><a href="#">Fireworks at the Fountain</a></li>
+                                    <li><a href="#">Thornton 2nd Thursday Wine & Art Walk</a></li>
+                                    <li><a href="#">Baldwin Park First Friday Festival</a></li>
+                                    <li><a href="#">Parking Day Orlando 2019</a></li>
+                                    <li><a href="#">Edgewater High School Homecoming Parade</a></li>
+                                    <li><a href="#">The Parramore Farmers Market</a></li>
+                                </ul>
+                        </li>
                         <li><a href="#">My Neighborhood</a></li>
                     </ul>
                         
