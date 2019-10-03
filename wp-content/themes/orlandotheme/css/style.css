@@ -10,6 +10,38 @@ Tags: bootstrap
     border: 1px solid black;
 } */
 
+.azra span {
+  color: #fff;
+}
+
+.azra.block {
+  background-color: #22567d;
+  border-radius: 10px;
+  float: left;
+  margin: 4em 0 1em 2em;
+  padding: 1em 1em 1em 2em;
+  width: auto;
+}
+
+.azra.block p {
+  padding: 0 0 0;
+}
+
+@screen and (max-width: 69em) {
+  .azra.block {
+    float: left;
+    width auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .azra.block {
+    float: left;
+    margin: 2em 0 0 1em;
+    padding: 1em 1em 1em 2em;
+    width: auto;
+  }
+}
 
 .main-background {
   background-color: rgb(43, 43, 43);
@@ -1059,7 +1091,7 @@ a:hover, a:focus {
 @media screen and (max-width: 69em) {
 	.block {
 		float: none;
-		width: 100% !important;
+		width: 100%;
 		padding: 1em;
 	}
 }

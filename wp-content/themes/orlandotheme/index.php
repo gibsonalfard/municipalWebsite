@@ -109,13 +109,13 @@
             <div class="main-background">
               <div class="blog-header">
                 <div class="overlay">
-                  <div class="col-sm-2 col-1">
-                    <img class="img img-logo" src="<?php echo get_bloginfo('template_directory'); ?>/asset/LogoOrlando.png" />
-                    <div class="block block-40 clearfix">
-                      <p><a href="#" id="trigger" class="menu-trigger"></a></p>
-                    </div>
+                  <div class="azra block block-10 clearfix">
+                    <p><a href="#" id="trigger" class="menu-trigger"></a></p><span>menu</span>
                   </div>
-                  <div class="col-sm-4 col-1 img-logo">
+                  <div class="col-sm-2 col-xs-1">
+                    <img class="img img-logo" src="<?php echo get_bloginfo('template_directory'); ?>/asset/LogoOrlando.png" />
+                  </div>
+                  <div class="col-sm-4 col-xs-1 img-logo">
                     <div class="input-group">
                       <input type="text" class="form-control search" placeholder="Find almost anything on our website">
                       <span class="input-group-btn">
