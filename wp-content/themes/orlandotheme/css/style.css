@@ -9,11 +9,11 @@ Tags: bootstrap
 /* .row {
     border: 1px solid black;
 } */
-/*
+
 .main-background {
   background-color: rgb(43, 43, 43);
-  overflow: auto;
-}*/
+  height: auto;
+}
 
 /* Ilham Gibran */
 
@@ -70,11 +70,12 @@ height: 70px;
 
 .blog-header {
   width: 100%;
-  height: 510px;
-  /* position: absolute; */
+  /*height: 510px;
+   position: absolute; */
   background-image: url("../asset/backgroud.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .overlay{
@@ -82,15 +83,21 @@ height: 70px;
   float: left;
   height: 100%;
   width: 100%;
-  background-color: rgba(1,0,0,0.25);
 }
 
 /* Reyhan Soeharto */
+@media (max-width: 500px) {
+  .resu .content-area .content {
+    width: 100%;
+  }
+}
+
 .con-fld {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #F4F6F8;
+  display: block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #F4F6F8;
 }
 
 .content-area {
@@ -293,8 +300,8 @@ height: 70px;
   .container {
       width: 100%;
       min-height: 450px;
-      background-image:  linear-gradient(to bottom, transparent 5%, rgb(43, 43, 43));
-      /* background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
+      /*background-image:  linear-gradient(to bottom, transparent 50%, rgb(43, 43, 43));
+       background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
       float: left;
       /* margin-left: 0px; */
       padding: 0px;
@@ -302,7 +309,6 @@ height: 70px;
 }
 
 .container {
-  margin-top: -250px;
   width: 100%;
   padding: 0px;
 }
@@ -373,11 +379,17 @@ height: 70px;
     background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
     background-position: -88px -85px;
   }
-/*
-  .container {
-    background-image:  linear-gradient(to bottom, rgba(43, 43, 43, 0.9), rgb(43, 43, 43));
-    margin-top:-50px;
-  }*/
+
+  @media (max-width: 650px) {
+    .alifia.row {
+      background-image: linear-gradient(to top, rgba(43, 43, 43, 1) 90%,rgba(43, 43, 43, 0));
+    }
+  }
+
+  .alifia.row {
+    background-image:  linear-gradient(to top, rgba(43, 43, 43, 1) 70%,rgba(43, 43, 43, 0));
+    /*margin-top:-50px;*/
+  }
 
   .tab-content{
     min-height: 850px;
