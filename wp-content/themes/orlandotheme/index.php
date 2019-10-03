@@ -21,6 +21,7 @@
   <link href="<?php echo get_bloginfo('template_directory'); ?>/css/demo.css" rel="stylesheet">
   <link href="<?php echo get_bloginfo('template_directory'); ?>/css/components.css" rel="stylesheet">
   <script src="<?php echo get_bloginfo('template_directory'); ?>/js/modernizr.custom.js"></script>
+  <link rel="icon" type="img/png" sizes="32x32" href=<?php echo get_bloginfo('template_directory'); ?>/asset/favicon-32x32.png">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -203,23 +204,7 @@
 
               </div>
               <div id="eventTab" class="hidden">
-                <?php
-                $args = array(
-                  'post_type' => 'post'
-                );
 
-                $post_query = new WP_Query($args);
-                if ($post_query->have_posts()) {
-                  while ($post_query->have_posts()) {
-                    $post_query->the_post();
-                    ?>
-                    <h3><?php echo get_the_title(); ?></h3>
-                    <h6><?php echo get_the_date(); ?></h6>
-                    <?php echo get_the_content(); ?>
-                <?php
-                  }
-                }
-                ?>
                 <div class="container-fluid-event">
                   <div class="card">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Pygmy_Goat_002.jpg/220px-African_Pygmy_Goat_002.jpg" alt="Card image">
@@ -266,7 +251,7 @@
   <div class="container-fluid con-fld">
 
     <div class="row content-area" style="padding=0;">
-      <div class="col-xs-12 col-sm-6 col-md-4 content">
+      <!-- <div class="col-xs-12 col-sm-6 col-md-4 content">
         <div class="test" id="council">
           <a href=# class="ref">
             <div class="panel-image">
@@ -278,8 +263,8 @@
             </div>
           </a>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 content">
+      </div> -->
+      <!-- <div class="col-xs-12 col-sm-6 col-md-4 content">
         <div class="test" id="neighborhood">
           <a href=# class="ref">
             <div class="panel-image">
@@ -291,8 +276,8 @@
             </div>
           </a>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 content">
+      </div> -->
+      <!-- <div class="col-xs-12 col-sm-6 col-md-4 content">
         <div class="test" id="digital">
           <a href=# class="ref">
             <div class="panel-image">
@@ -304,7 +289,35 @@
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
+      <?php
+      $args = array(
+        'post_type' => 'post'
+      );
+      // the_post_thumbnail();
+
+      $post_query = new WP_Query($args);
+      if ($post_query->have_posts()) {
+        while ($post_query->have_posts() && !$show) {
+          $post_query->the_post();
+          ?>
+          <div class="col-xs-12 col-sm-6 col-md-4 content">
+            <div class="test" id="digital">
+              <a href="<?php echo get_post_permalink(); ?>" class="ref" style="text-decoration:none;">
+                <div class="panel-image">
+                  <?php the_post_thumbnail(); ?>
+                </div>
+                <div class="panel-text">
+                  <h2 class="header2"><?php echo get_the_title(); ?></h2>
+                  <p class="overview">We worked out the bugs, surveyed residents and continue to make improvements.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <?php
+        }
+      }
+      ?>
     </div>
   </div>
   <footer class="blog-footer">

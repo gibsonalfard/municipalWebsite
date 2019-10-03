@@ -141,6 +141,7 @@
                             $args = array(
                                 'post_type' => 'post'
                             );
+                            // the_post_thumbnail();
 
                             $show = false;
 
