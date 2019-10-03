@@ -9,27 +9,59 @@ Tags: bootstrap
 /* .row {
     border: 1px solid black;
 } */
+/*
+.main-background {
+  background-color: rgb(43, 43, 43);
+  overflow: auto;
+}*/
 
 /* Ilham Gibran */
-@media (min-width: 1200px) {
-    .container {
-        width: 100%;
-        min-height: 450px;
-        margin-top:-50px;
-        background:  linear-gradient(to bottom,rgba(255, 255, 255, 0.0), #333 5%);
-        /* background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
-        float: left;
-        /* margin-left: 0px; */
-        padding: 0px;
-    }
 
-    .container > .row{
-      margin:0px;
-    }
+@media (max-width: 1000px) {
+  .img-logo {
+    width: 200px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .overlay > .img-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .input-group-small {
+    display: inline;
+  }
+
+  .input-group {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .input-group-small {
+    display: none;
+  }
+
+  .overlay {
+    padding: 0 5% 0 0;
+  }
+}
+
+.overlay > .img-logo {
+  display: inline;
+  float: right;
+}
+
+.overlay > div {
+  display: inline;
+}
+
+.input-group-small {
+  color: white;
 }
 
 .img-logo {
-    margin: 40px 0px 0px 105px;
+    margin: 40px 0px 0px 0px;
 }
 
 .search {
@@ -37,18 +69,20 @@ height: 70px;
 }
 
 .blog-header {
-    width: 100%;
-    height: 510px;
-    /* position: absolute; */
-    background-image: url("../asset/backgroud.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 510px;
+  /* position: absolute; */
+  background-image: url("../asset/backgroud.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .overlay{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(1,0,0,0.25);
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(1,0,0,0.25);
 }
 
 /* Reyhan Soeharto */
@@ -56,51 +90,48 @@ height: 70px;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: #F4F6F8;
 }
 
 .content-area {
-    /* margin: 0 auto; */
-    text-align: center;
-    padding: 60px 50px 60px 50px;
-    background-color: #F4F6F8;
-    margin-left: -10px;
-    margin-right: -10px;
-    /* border: 1px solid black; */
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  text-align: center;
+  padding: 0;
+  /* border: 1px solid black; */
 }
 
-.content {
-    margin-top: 20px;
+.resu > .content {
+    margin: 20px 0 50px;
     text-align: center;
-    padding: 0px;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 0 0.5% 0 0.5%;
     /* border: 1px solid black; */
 }
 
 .ref {
-    color: black;
+  border-radius: 4px;
+  border-top: 5px solid #DA8B00;
+  color: black;
+  background-color: white;
+  display: block;
+  transition: box-shadow .3s;
+  height: 390px;
 }
 
 .ref:hover {
     color: #5b8599;
     text-decoration: none;
+    box-shadow: 0 0 50px rgba(33,33,33,.2);
+}
+
+.ref:hover .header2 {
+  text-decoration: underline;
 }
 
 .test {
     /* border: 1px solid black; */
-    background-color: white;
-    border-radius: 4px;
-    border-top: 5px solid #DA8B00;
-    margin-left: 35px;
-    margin-right: 30px;
-    margin-bottom: 20px;
     height: 450px;
-    transition: box-shadow .3s;
-}
-
-.test:hover {
-    box-shadow: 0 0 50px rgba(33,33,33,.2);
-    color: 5b8599;
+    padding: 60px 0 20px;
 }
 
 #neighborhood {
@@ -136,14 +167,16 @@ height: 70px;
 }
 
 .overview {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+  color: rgb(72, 74, 78);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .header2 {
     font-family: 'Open Sans';
-    font-size: 25px;
-    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 /*
@@ -154,7 +187,7 @@ height: 70px;
     background-color: white;
     color: #505050;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
   .blog-footer a, .blog-footer a:visited {
@@ -171,7 +204,10 @@ height: 70px;
   }
   
   .blog-footer > div > div {
+    display: block;
     margin-bottom: 30px;
+    overflow: auto;
+    padding: 5px;
   }
   
   .foot1 {
@@ -190,12 +226,13 @@ height: 70px;
     list-style-image: none;
     list-style-position: outside;
     list-style-type: none;
+    padding: 0 0 0 0;
   }
   
   .blog-footer ul li {
     float: left;
     height: 30px;
-    width: 120px;
+    width: 35%;
     margin-left: 32px;
   }
   
@@ -251,22 +288,115 @@ height: 70px;
   }
 
 /* Alifia */
+
+@media (min-width: 1200px) {
+  .container {
+      width: 100%;
+      min-height: 450px;
+      background-image:  linear-gradient(to bottom, transparent 5%, rgb(43, 43, 43));
+      /* background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)); */
+      float: left;
+      /* margin-left: 0px; */
+      padding: 0px;
+  }
+}
+
+.container {
+  margin-top: -250px;
+  width: 100%;
+  padding: 0px;
+}
+
+.container > .row{
+  margin:0px;
+  width: 100%;
+}
+
+@media (min-width: 927px) {  
+  .nav-tabs li span {
+    display: block;
+  }
+
+  .nav-tabs li i {
+    display: none;
+  }
+}
+
+@media (max-width: 926px) {
+  .nav-tabs li span {
+    display: none;
+  }
+  
+  .nav-tabs li i {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-content{
+    margin : 60px;
+    max-width: 90%;
+    word-spacing: 1px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .blog-content {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+}
+
+  .nav-tabs li i {
+    background-size: 600px 599px;
+    width: 34px;
+    height: 34px;
+  }
+
+  .nav-tabs li.active .one, .nav-tabs li a:hover .one  {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: 0px -42px;
+  }
+  
+  .nav-tabs li .one {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: 0px -85px;
+  }
+  
+  .nav-tabs li.active .two, .nav-tabs li a:hover .two {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -88px -42px;
+  }
+  
+  .nav-tabs li .two {
+    background-image: url("https://www.orlando.gov/files/oc-templates/00000000-0000-0000-0000-000000000000/7d7464b8-f248-4433-b870-efe915aca122/ORL-sprite-general.svg");
+    background-position: -88px -85px;
+  }
+/*
+  .container {
+    background-image:  linear-gradient(to bottom, rgba(43, 43, 43, 0.9), rgb(43, 43, 43));
+    margin-top:-50px;
+  }*/
+
   .tab-content{
-    height: 850px;
-    padding : 37px;
+    min-height: 850px;
+    min-width: 200px;
+    overflow: hidden;
+    padding : 2%;
     background: #fff;
   } 
 
- .panel{
-    margin: 10px 10px 10px 0px;
-    width:360px;
-    height: 250px;
+ .panel {
+    margin: 10px auto 10px auto;
     border: 0px;
+    min-width: 200px;
+    height: 250px;
   }
 
   .panel:hover{
     border:1px solid white;
-    box-shadow:0px 0px 15px #b5bdc3;
+    box-shadow:5px 5px 15px #b5bdc3;
     border-radius: 0px;
   }
 
@@ -290,7 +420,7 @@ height: 70px;
   .preview{
     font-size: 18px;
     color: gray;
-    width: 230px;
+    min-width: 200px;
     text-align: justify;
     margin-left:70px;
   }
@@ -331,19 +461,13 @@ height: 70px;
     padding: 10px;
   }
 
-  .blog-content{
-    margin : 60px;
-    max-width: 90%;
-    word-spacing: 1px;
-  }
-
   .content h2{
     text-align: left;
     font-size: 22px;
     margin: 30px 10px 20px 0px;
   }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 780px){
   .preview{
     display: none;
   }
@@ -351,7 +475,7 @@ height: 70px;
   .panel{
     height: auto;
     width: 100%;
-     border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
   }
 
   .panel:hover{
