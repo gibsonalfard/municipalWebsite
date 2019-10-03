@@ -135,7 +135,7 @@
               <li class="active"><a data-toggle="tab" href="#" onclick="toogleTab(1)">Do it Online</a></li>
               <li><a data-toggle="tab" href="#" onclick="toogleTab(2)">Event</a></li>
             </ul> -->
-                        <div class="tab-content" style="margin-top:-400px">
+                        <div class="tab-content" style="margin-top:-400px; height: auto">
                             <!-- Start Content -->
                             <?php
                             $args = array(
